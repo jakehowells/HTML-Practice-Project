@@ -36,45 +36,50 @@
     <main>
       <section id="about">
         <h2>About</h2>
-        <div class="section_description">
-          <div class="section__description--wrapper">
-            <p class="section__description--para">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-              autem nesciunt deserunt, consequuntur adipisci est incidunt harum
-              facere esse? Illo enim vero adipisci quo nisi ratione recusandae
-              harum eius vel.
-            </p>
-            <p class="section__description--para">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas
-              possimus perspiciatis neque repellat fuga quasi ratione deserunt.
-              Accusantium expedita assumenda veritatis facere quis, ducimus
-              facilis ipsa voluptatum alias, aut fugiat.
-            </p>
+        <div class="row">
+          <div class="section_description">
+            <div class="section__description--wrapper">
+              <p class="section__description--para">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Eveniet autem nesciunt deserunt, consequuntur adipisci est
+                incidunt harum facere esse? Illo enim vero adipisci quo nisi
+                ratione recusandae harum eius vel.
+              </p>
+              <p class="section__description--para">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas
+                possimus perspiciatis neque repellat fuga quasi ratione
+                deserunt. Accusantium expedita assumenda veritatis facere quis,
+                ducimus facilis ipsa voluptatum alias, aut fugiat.
+              </p>
+            </div>
+            <figure class="about__img--wrapper">
+              <img src="./Assets/about.jpg" alt="About Image" />
+            </figure>
           </div>
-          <figure class="about__img--wrapper">
-            <img src="./Assets/about.jpg" alt="About Image" />
-          </figure>
         </div>
       </section>
+
       <section id="discord">
         <h2>Discord</h2>
-        <div class = "section_description">
-          <figure class="about__img--wrapper">
-            <img src="./Assets/discord.png" alt="Discord Image" />
-          </figure>
-          <div class="section__description--wrapper">
-            <p class="section__description--para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ut
-              sunt illum expedita vitae similique assumenda repellendus natus
-              consequatur corrupti blanditiis ipsa, ipsum doloremque placeat
-              nemo quasi est aspernatur voluptate?
-            </p>
-            <p class="section__description--para">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-              quam, magnam perspiciatis maxime accusamus necessitatibus omnis
-              asperiores consequatur quod nesciunt nobis odio explicabo vero non
-              dignissimos labore officiis ipsa mollitia.
-            </p>
+        <div class="row">
+          <div class="section_description">
+            <figure class="about__img--wrapper">
+              <img src="./Assets/discord.png" alt="Discord Image" />
+            </figure>
+            <div class="section__description--wrapper">
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ut
+                sunt illum expedita vitae similique assumenda repellendus natus
+                consequatur corrupti blanditiis ipsa, ipsum doloremque placeat
+                nemo quasi est aspernatur voluptate?
+              </p>
+              <p class="section__description--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                quam, magnam perspiciatis maxime accusamus necessitatibus omnis
+                asperiores consequatur quod nesciunt nobis odio explicabo vero
+                non dignissimos labore officiis ipsa mollitia.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -85,19 +90,22 @@
           <label for="">Email</label>
           <input type="email" placeholder="Jane@example.com" />
           <label for="">Message</label>
-          <textarea type="text" placeholder="Cool website, lets connect!"></textarea>
+          <textarea
+            type="text"
+            placeholder="Cool website, lets connect!"
+          ></textarea>
         </form>
-        <button>Contact Us!</button>
+        <button class="contact__button">Contact Us!</button>
       </section>
     </main>
 
     <footer>
-      <img src="./Assets/FES.svg" alt="" />
-      <div>
-        <a href="#about">About</a>
-        <a href="#discord">Discord</a>
-        <a href="#contact">Contact</a>
-        <a href="#courses">Courses</a>
+      <img class="footer__logo" src="./Assets/FES.svg" alt="" />
+      <div class="footer__links">
+        <a class="footer__link" href="#about">About</a>
+        <a class="footer__link" href="#discord">Discord</a>
+        <a class="footer__link" href="#contact">Contact</a>
+        <a class="footer__link" href="#courses">Courses</a>
       </div>
       <p>Copyright Frontend Simplified</p>
     </footer>
